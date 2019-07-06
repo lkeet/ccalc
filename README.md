@@ -1,4 +1,4 @@
-# ccalc
+# ccalc :smoking:
 Terminal Calculator Program written in C. Compile with 'make'.
 
 ## Features
