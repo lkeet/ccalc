@@ -79,7 +79,7 @@ double square_root() {
 // param for determing whether the help text has been displayed from calling the help param on program execution 
 void help_text(bool welcome, bool param) {
 	printf(".... Simple C Calculator ....\n");
-	printf("... Written by Liam Keeton ..\n");
+	printf("....  Written by lkeet   ....\n");
 	if (!param) {
 		printf("Expressions can be calculated upon program execution. Run this program with %s as a parameter to view the syntax.\n", hel);
 	}
