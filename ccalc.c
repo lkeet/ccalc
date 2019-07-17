@@ -16,7 +16,7 @@ static const char hel[] = "?";
 static const char qui[] = "quit";
 
 // Global static string constant for error cmdline error message
-static const char err[] = "Illegal expression. Run program with %s to view help.";
+static const char err[] = "\aIllegal expression. Run program with %s to view help.";
 
 // Performs operations listed below 
 	// Operation Key
@@ -125,7 +125,7 @@ void select_operation(int iteration) {
 		exit(0);
 	}
 	else {
-		printf("Unrecognised Operation.\n");
+		printf("\aUnrecognised Operation.\n");
 	}
 	printf("\n");
 	select_operation(iteration + 1);
