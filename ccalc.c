@@ -4,6 +4,9 @@
 #include <math.h>
 #include <stdlib.h>
 
+// Version 
+static const char version[] = "1.0";
+
 // Global static string constants for calculator buttons
 static const char add[] = "+";
 static const char sub[] = "-";
@@ -78,8 +81,8 @@ double square_root() {
 // welcome parameter for proper formatting when shown as the "welcome screen" 
 // param for determing whether the help text has been displayed from calling the help param on program execution 
 void help_text(bool welcome, bool param) {
-	printf(".... Simple C Calculator ....\n");
-	printf("....  Written by lkeet   ....\n");
+	printf(".... C Calculator Version: %s ....\n", version);
+	printf("....     Written by lkeet      ....\n");
 	if (!param) {
 		printf("Expressions can be calculated upon program execution. Run this program with %s as a parameter to view the syntax.\n", hel);
 	}
