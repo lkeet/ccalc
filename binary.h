@@ -169,6 +169,7 @@ binary_t twos_complement(binary_t binary)
     return convert(base10(complement(binary)) + 1);
 }
 
+// Prints the associated string of a binary type
 void print_binary(binary_t binary)
 {
     printf("%s", binary.binary);

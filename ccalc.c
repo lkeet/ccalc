@@ -1,11 +1,11 @@
-// C Header Files
+// C header files
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 #include <math.h>
 #include <stdlib.h>
 
-// Binary Conversion Header File
+// Binary related functions header file - includes definition for binary_t types
 #include "binary.h"
 
 // Version 
