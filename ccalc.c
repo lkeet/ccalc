@@ -214,7 +214,7 @@ void handle_cmd_args(int argc, char* argv[]) {
 	}
 	else if (strcmp(argv[1], bin) == 0) {
 		int val = val1;
-		print_binary(convert(val));
+		printf("%s", convert(val).binary);
 	}
 	else {
 		printf(err, hel);
