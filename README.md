@@ -13,3 +13,5 @@ Run ```ccalc ?``` to view help.
 * Modulus
 * Exponent
 * Square Root
+* Base10 to Binary
+* Binary to Base10
