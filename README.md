@@ -3,7 +3,7 @@ Terminal Calculator Program written in C. Compile with 'make'.
 
 ## Features
 Can be run as a continuous program or can be invoked with an expression to calculate.
-Run ```ccalc ?``` to view help.
+Run ```./ccalc ?``` to view help.
 
 ## Supported Operations
 * Addition
