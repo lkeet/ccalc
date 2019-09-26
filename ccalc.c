@@ -1,8 +1,11 @@
+// C Header Files
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 #include <math.h>
 #include <stdlib.h>
+
+// Binary Conversion Header File
 #include "binary.h"
 
 // Version 
@@ -80,6 +83,7 @@ double square_root() {
 	return sqrt(val);
 }
 
+// Prompts the user for a binary string to be converted to base10 then returns the result as a binary_t type
 binary_t base10_handler() {
 	binary_t return_struct;
 	char val[16];
@@ -89,6 +93,7 @@ binary_t base10_handler() {
 	return return_struct;
 }
 
+// Prompts the user for an integer to be converted to binary then returns the result as a binary_t type
 binary_t binary_handler() {
 	int val;
 	printf("Please enter the base10 integer you wish to convert to binary: ");
