@@ -110,11 +110,11 @@ void help_text(bool welcome, bool param) {
 	if (!param) {
 		printf("Expressions can be calculated upon program execution. Run this program with %s as a parameter to view the syntax.\n", hel);
 	}
-	printf("Operations:\n[%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s]\n[%s] [%s]\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
+	printf("Operations:\n  [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s]\n  [%s] [%s]\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
 	if (param) {
-		printf("Syntax:\nBasic Operations: value[1] [operation] value[2] (example: 43.5 %s 34)\n%s/%s/%s: [operation] value (example: %s 64)\n", add, squ, b10, bin, squ);
+		printf("Syntax:\n  Basic Operations: value[1] [operation] value[2] (example: 43.5 %s 34)\n  %s/%s/%s: [operation] value (example: %s 64)\n", add, squ, b10, bin, squ);
 	}
-	printf("Legend:\n%s : Addition\n%s : Subtraction\n%s : Multiplication\n%s : Division\n%s : Modulus\n%s : Exponent\n%s : Square Root\n%s : Binary to Base10 Converter\n%s : Base10 to Binary Converter\n%s : Show Help Text\n%s : Exit Program\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
+	printf("Legend:\n  %s : Addition\n  %s : Subtraction\n  %s : Multiplication\n  %s : Division\n  %s : Modulus\n  %s : Exponent\n  %s : Square Root\n  %s : Binary to Base10 Converter\n  %s : Base10 to Binary Converter\n  %s : Show Help Text\n  %s : Exit Program\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
 	if (welcome) {
 		printf("\n");
 	}
