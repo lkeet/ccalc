@@ -209,7 +209,7 @@ void handle_cmd_args(int argc, char* argv[]) {
 			printf("%d", base10(val));
 		}
 		else {
-			printf("The string you entered is invalid.");
+			printf("\aThe string you entered is invalid.");
 		}
 	}
 	else if (strcmp(argv[1], bin) == 0) {
