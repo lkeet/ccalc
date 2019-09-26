@@ -84,7 +84,7 @@ binary_t base10_handler() {
 	binary_t return_struct;
 	char val[16];
 	printf("Please enter the binary string you wish to convert to base10: ");
-	scanf("%s", &val);
+	scanf("%s", val);
 	strcpy(return_struct.binary, val);
 	return return_struct;
 }
