@@ -22,7 +22,7 @@ static const char squ[] = "sqrt";
 static const char b10[] = "base10";
 static const char bin[] = "binary";
 static const char hel[] = "?";
-static const char qui[] = "quit";
+static const char qui[] = "q";
 
 // Global static string constant for error cmdline error message
 static const char err[] = "\aIllegal expression. Run program with %s to view help.";
@@ -83,7 +83,7 @@ double square_root() {
 	return sqrt(val);
 }
 
-// Prompts the user for a binary string to be converted to base10 then returns the result as a binary_t type
+// Prompts the user for a binary string to be converted to base-10 then returns the result as a binary_t type
 binary_t base10_handler() {
 	binary_t return_struct;
 	char val[16];
@@ -114,7 +114,7 @@ void help_text(bool welcome, bool param) {
 	if (param) {
 		printf("Syntax:\n  Basic Operations: value[1] [operation] value[2] (example: ./ccalc 43.5 %s 34)\n  %s/%s/%s: [operation] value (example: ./ccalc %s 64)\n", add, squ, b10, bin, squ);
 	}
-	printf("Legend:\n  %s : Addition\n  %s : Subtraction\n  %s : Multiplication\n  %s : Division\n  %s : Modulus\n  %s : Exponent\n  %s : Square Root\n  %s : Binary to Base10 Converter\n  %s : Base10 to Binary Converter\n  %s : Show Help Text\n  %s : Exit Program\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
+	printf("Legend:\n  %s : Addition\n  %s : Subtraction\n  %s : Multiplication\n  %s : Division\n  %s : Modulus\n  %s : Exponent\n  %s : Square Root\n  %s : Binary to Base-10 Converter\n  %s : Base-10 to Binary Converter\n  %s : Show Help Text\n  %s : Exit Program\n", add, sub, mul, dvd, mod, ept, squ, b10, bin, hel, qui);
 	if (welcome) {
 		printf("\n");
 	}
